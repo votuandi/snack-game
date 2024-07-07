@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  width: fit-content;
+  display: grid;
+  gap: 1px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+}
+
+.snake {
+  background-color: green;
+}
+
+.bait {
+  background-color: red;
+}
+
+.game-over {
+  font-size: 24px;
+  color: red;
+}
+
+.score {
+  color: red;
+}
+
+.highest {
+  font-weight: 800;
+}
+
+.info {
+  display: flex;
+  flex-dicrection: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.info label * {
+  margin-left: 4px;
+}
+
+.info label input {
+  width: 40px;
+}
